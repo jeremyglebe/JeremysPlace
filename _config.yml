@@ -14,13 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jeremy's Place | Coding with Passion
-email:
+email: jeremyglebe@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My, Jeremy Glebe, personal website and rambling zone. I am a software
-  developer, educator, and student seeking to learn and share knowledge
-  with whoever may be out there. You'll find that I often speak at length
-  about topics which may not require such verbosity. With any luck, I may
-  occasionally produce an insight.
+  Jeremy Glebe's personal website and rambling zone. Developer, educator,
+  and student seeking to learn and share knowledge. Unnecessarily verbose,
+  sometimes insightful (hopefully).
 github_username: jeremyglebe
 minimal_mistakes_skin: neon
 search: true
@@ -59,27 +57,27 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Jeremy Glebe"
-  avatar : "/assets/images/bio-photo.png"
-  bio    : "Software developer specializing in mobile and web application development. Educator and lifelong student."
+  name: 'Jeremy Glebe'
+  avatar: '/assets/images/bio-photo.png'
+  bio: 'Software developer specializing in mobile and web application development. Educator and lifelong student.'
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/jeremyglebe"
+    - label: 'Website'
+      icon: 'fas fa-fw fa-link'
+      url: 'https://jeremy.place'
+    - label: 'GitHub'
+      icon: 'fab fa-fw fa-github'
+      url: 'https://github.com/jeremyglebe'
 
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/jeremyglebe"
+    - label: 'GitHub'
+      icon: 'fab fa-fw fa-github'
+      url: 'https://github.com/jeremyglebe'
 
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: ''
       type: posts
     values:
       layout: single
@@ -90,7 +88,7 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: '_pages'
       type: pages
     values:
       layout: single
