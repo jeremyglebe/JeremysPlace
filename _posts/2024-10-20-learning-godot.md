@@ -4,8 +4,8 @@ excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
-  - Game Dev
-  - Updates
+  - game dev
+  - update
 ---
 
 ## Sparse Updates
